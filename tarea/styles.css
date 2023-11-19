@@ -1,0 +1,40 @@
+/* Estilos generales */
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos del encabezado */
+h1 {
+    color: #333333;
+    font-size: 2.5em;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #4CAF50;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #333333;
+}
+
+/* Estilos de la caja de contenido */
+.content-box img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-box img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
